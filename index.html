@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/recet.css" />
+    <link rel="stylesheet" href="style/font.css" />
+    <link rel="stylesheet" href="style/default.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/query.css" />
+
+    <title>Your Salad</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header--wide">
+        <div class="header--wide__container">
+          <nav class="nav--wide">
+            <ul class="nav__ul">
+              <li>
+                <img
+                  src="img/logo.png"
+                  alt=""
+                  class="nav-logo"
+                  id="nav-logo--normal"
+                />
+              </li>
+            </ul>
+            <ul class="nav__ul">
+              <li><a href="">새벽배송</a></li>
+              <li class="nav__ul__lists" id="nav--regular-delivery">
+                <a href="">정기배송</a>
+                <ul class="subnav__ul">
+                  <li><a href="#">2주</a></li>
+                  <li><a href="#">4주</a></li>
+                  <li><a href="#">6주</a></li>
+                </ul>
+              </li>
+              <li class="nav__ul__lists" id="nav--salad">
+                <a href="">샐러드</a>
+                <ul class="subnav__ul">
+                  <li><a href="#">단품</a></li>
+                  <li><a href="#">드레싱</a></li>
+                  <li><a href="#">토핑</a></li>
+                </ul>
+              </li>
+              <li class="nav__ul__lists" id="nav--sandwich">
+                <a href="">샌드위치</a>
+                <ul class="subnav__ul">
+                  <li><a href="#">통밀빵</a></li>
+                  <li><a href="#">베이글</a></li>
+                </ul>
+              </li>
+              <li class="nav__ul__lists" id="nav--snack">
+                <a href="">건강간식</a>
+                <ul class="subnav__ul">
+                  <li><a href="#">요거트</a></li>
+                  <li><a href="#">견과류, 바</a></li>
+                  <li><a href="#">건강과자</a></li>
+                  <li><a href="#">주스</a></li>
+                </ul>
+              </li>
+              <li><a href="">고객지원</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <header class="header--narrow" id="header--narrow">
+        <nav class="nav--narrow">
+          <ul class="nav__ul">
+            <li>
+              <img src="img/logo.png" alt="" class="nav-logo" />
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="nav__ul" id="nav__hamburger">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="nav__menu-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </div>
+      <header class="sidebar sidebar--trans">
+        <nav class="sidebar__nav">
+          <div class="sidebar__nav__container sidebar__nav__title">
+            <a href="#">새벽배송</a>
+          </div>
+          <div class="sidebar__nav__container">
+            <div class="sidebar__nav__title">정기배송</div>
+            <ul class="sidebar__nav__ul">
+              <li><a href="#">2주</a></li>
+              <li><a href="#">4주</a></li>
+              <li><a href="#">6주</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__nav__container">
+            <div class="sidebar__nav__title">샐러드</div>
+            <ul class="sidebar__nav__ul">
+              <li><a href="#">단품</a></li>
+              <li><a href="#">드레싱</a></li>
+              <li><a href="#">토핑</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__nav__container">
+            <div class="sidebar__nav__title">샌드위치</div>
+            <ul class="sidebar__nav__ul">
+              <li><a href="#">통밀빵</a></li>
+              <li><a href="#">베이글</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__nav__container">
+            <div class="sidebar__nav__title">건강간식</div>
+            <ul class="sidebar__nav__ul">
+              <li class="width--half"><a href="#">요거트</a></li>
+              <li class="width--half"><a href="#">견과류, 바</a></li>
+            </ul>
+            <ul class="sidebar__nav__ul">
+              <li class="width--half"><a href="#">건강과자</a></li>
+              <li class="width--half"><a href="#">주스</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__nav__container sidebar__nav__title">
+            <a href=""> 고객지원</a>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="main-slider--overflow">
+          <div class="main-slider-wrapper" id="main-slider-wrapper">
+            <div class="main-slider__container">
+              <img
+                src="img/main__01.jpg"
+                alt="fresh salad"
+                class="main-slider-img"
+              />
+            </div>
+            <div class="main-slider__container">
+              <img
+                src="img/main__02.jpg"
+                alt="vegetable juice"
+                class="main-slider-img"
+              />
+            </div>
+            <div class="main-slider__container">
+              <img
+                src="img/main__03.jpg"
+                alt="salad and avocado"
+                class="main-slider-img"
+              />
+            </div>
+          </div>
+          <div class="main-slider__btns">
+            <!-- <div class="main-slider__btn btn--selected"></div> -->
+          </div>
+        </div>
+        <div class="feature-wrapper wrapper-center">
+          <div class="feature-container">
+            <div class="feature__image">
+              <img src="img/feature__tomato.jpg" alt="" class="feature__img" />
+            </div>
+            <div class="feature__text">
+              <p class="feature__text__title">건강하게, 더 가볍게</p>
+              <p class="feature__text__p">
+                영양은 고려하지 않은 채 굶고 계신가요?<br />
+                과도하게 음식을 제한하는 식단은 몸에 무리가 돼요. <br />YOUR
+                SALAD는 우리 몸에 맞는 건강한 식단을 지향해요.
+              </p>
+            </div>
+          </div>
+          <div class="feature-container flex-reverse">
+            <div class="feature__image">
+              <img src="img/feature__bread.jpg" alt="" class="feature__img" />
+            </div>
+            <div class="feature__text text-right">
+              <p class="feature__text__title">질리지 않게, 더 맛있게</p>
+              <p class="feature__text__p">
+                저칼로리 간식과 맛있는 샐러드로 함께해요.<br />아무리 좋은
+                음식이라도 맛이 없으면 지속하기 힘들죠.<br />맛있게 먹다보면
+                힘든 식단관리도 즐겁게 할 수 있어요.
+              </p>
+            </div>
+          </div>
+          <div class="feature-container">
+            <div class="feature__image">
+              <img src="img/feature__green.jpg" alt="" class="feature__img" />
+            </div>
+            <div class="feature__text">
+              <p class="feature__text__title">친환경으로, 더 이롭게</p>
+              <p class="feature__text__p">
+                아무리 좋은 음식이라도 맛이 없으면 지속하기 힘들어요.
+                <br />맛있게 먹다보면 힘든 식단관리도 질리지 않고 즐겁게 할 수
+                있어요. <br />YOUR SALAD로 맛있게 먹다보면 즐겁게 다이어트 할 수
+                있어요.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="sub-slider-title wrapper-center">
+          <p class="sub-slider-title__p">Weekly Best</p>
+        </div>
+        <div class="sub-slider">
+          <div class="sub-slider-wrapper">
+            <div class="sub-slider__container">
+              <div class="sub-slider__container__div">
+                <img src="img/portrait-1.jpg" alt="" class="sub-slider__img" />
+              </div>
+              <div class="sub-slider__container__div">
+                <img src="img/portrait-02.jpg" alt="" class="sub-slider__img" />
+              </div>
+              <div class="sub-slider__container__div">
+                <img src="img/portrait-03.jpg" alt="" class="sub-slider__img" />
+              </div>
+              <div class="sub-slider__container__div">
+                <img src="img/portrait-04.jpg" alt="" class="sub-slider__img" />
+              </div>
+              <div class="sub-slider__container__div">
+                <img src="img/portrait-05.jpg" alt="" class="sub-slider__img" />
+              </div>
+              <div class="sub-slider__container__div">
+                <img src="img/portrait-06.jpg" alt="" class="sub-slider__img" />
+              </div>
+            </div>
+          </div>
+          <div class="sub-slider-btns">
+            <div class="sub-slider-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="sub-slider-btn__prev"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </div>
+            <div class="sub-slider-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="sub-slider-btn__next"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer--wide">
+        <div class="footer-wrapper wrapper-center">
+          <div><img src="img/logo-dark.png" alt="" class="nav-logo" /></div>
+          <div class="footer-text">
+            <div class="footer-text__info">
+              <p>서울특별시 강남구 강남대로</p>
+              <span>|</span>
+              <p>TEL: 02.1234.5678</p>
+              <span>|</span>
+              <p>FAX: XXXXXXXXX</p>
+              <span>|</span>
+              <p>개인정보 처리방침</p>
+            </div>
+            <div class="footer-text__copyright">
+              <p>COPYRIGHT© 2021. ALL RIGHT RESERVED</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer class="footer--narrow">
+        <div class="footer-wrapper">
+          <div><img src="img/logo-dark.png" alt="" class="nav-logo" /></div>
+          <div class="footer-text">
+            <div class="footer-text__info">
+              <p>서울특별시 강남구 강남대로</p>
+            </div>
+            <div class="footer-text__info">
+              <p>TEL: 02.1234.5678</p>
+              <span>|</span>
+              <p>FAX: XXXXXXXXX</p>
+            </div>
+            <div class="round-div-container">
+              <div class="footer-text__info round-div">
+                <p>개인정보 처리방침</p>
+              </div>
+              <div class="footer-text__info round-div">
+                <p>친환경 인증</p>
+              </div>
+            </div>
+            <div class="footer-text__copyright">
+              <p>COPYRIGHT© 2021. ALL RIGHT RESERVED</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="header--hover--overlay none"></div>
+      <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-overlay__wrapper">
+          <div class="modal-close-div" id="modal-close-div">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="modal-close-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
+          <div class="modal-container">
+            <div>
+              <span class="modal-icon material-icons-outlined">
+                event_available
+              </span>
+            </div>
+            <p class="modal__title">채소 습관 만들기</p>
+            <p class="modal__subtitle">6주 식단관리 챌린지</p>
+            <div><img src="img/modal.jpg" alt="" class="modal-img" /></div>
+            <p class="modal__info">
+              나를 위한 채소 습관, 유어샐러드와 함께 만들어요!
+            </p>
+            <p class="modal__btn round-div">신청하러 가기</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/mainSlide.js"></script>
+    <script src="js/subSlide.js"></script>
+  </body>
+</html>
