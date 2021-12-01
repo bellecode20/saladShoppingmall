@@ -1,1 +1,43 @@
+/* width */
+.width--half {
+  width: 50%;
+}
+/* scroll */
+.wrap {
+  overflow: hidden;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* visibility */
+.none {
+  display: none;
+}
 
+/* align */
+.wrapper-center {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* text-align */
+.text-right {
+  text-align: right;
+}
+/* flex */
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+/* design */
+.round-div {
+  padding: 1.2rem 0;
+  text-align: center;
+  color: #868e96;
+  border: 3px solid #dee2e6;
+  border-radius: 3rem;
+  justify-content: center;
+  cursor: pointer;
+}
