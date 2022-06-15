@@ -26,10 +26,10 @@
 
 ## 반응형 디자인
 ### 햄버거 메뉴
-<큰 화면일 때 메뉴바>
+#### <큰 화면일 때 메뉴바>
 ![image](https://user-images.githubusercontent.com/94767408/173852058-0741c4b1-22cf-4c65-a8c8-116b3ea337f4.png)
 - 전체 메뉴가 모두 나타납니다.
-<작은 화면일 때 메뉴바>
+#### <작은 화면일 때 메뉴바>
 ![햄버거 메뉴](https://user-images.githubusercontent.com/94767408/144160818-a4a4c074-9d9f-47ef-a9c4-3c4970e0cdf4.gif)
 - 메뉴 아이콘을 클릭하면 전체 메뉴를 볼 수 있습니다.
  
